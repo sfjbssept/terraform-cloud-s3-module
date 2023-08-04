@@ -17,7 +17,7 @@ EOF
     index_document = "index.html"
     error_document = "error.html"
   }
-  tags          = var.tags_bucket
+  # tags          = var.tags_bucket
   force_destroy = true
 
 }
